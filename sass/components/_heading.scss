@@ -1,0 +1,16 @@
+.title {
+  font-size: 4.3rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  // -webkit-background-clip: text;
+  // background-image: linear-gradient(to right top, #bc871e, #c9ab81);
+  // -webkit-text-fill-color: transparent;
+  color: $color-primary;
+}
+.subtitle {
+  font-size: 2.7rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: $color-secondary;
+}

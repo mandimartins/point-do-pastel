@@ -1,0 +1,26 @@
+.coming-soon {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+
+  img {
+    margin-top: 15px;
+    width: 40%;
+
+    @include respond(tab-land) {
+      width: 80%;
+    }
+  }
+  h1 {
+    color: #fff;
+
+    @include respond(tab-land) {
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+}

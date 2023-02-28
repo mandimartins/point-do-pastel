@@ -1,0 +1,17 @@
+.footer-meio-pagamento {
+  min-height: 10vh;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.made-with {
+  margin: 2rem 0;
+  text-align: center;
+
+  a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
